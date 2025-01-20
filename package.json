@@ -4,7 +4,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "watch" : "node --watch app.js",
+    "watch": "node --watch app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +17,8 @@
     "url": "https://github.com/DennyRubino/express-blog-intro/issues"
   },
   "homepage": "https://github.com/DennyRubino/express-blog-intro#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
